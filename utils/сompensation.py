@@ -1,10 +1,10 @@
 # 0. импортировать нужные библиотеки
 
 from brownie import *
-from brownie_safe import BrownieSafe
+from brownie import BrownieSafe
 
 from utils.config import contracts # для использования метода getmembers
-
+"""
 # 1. получить адреса пользователей
 def get_user_addresses():
     return hash_consensus.getMembers() #todo: скорее всего неправильно, исправить
@@ -75,3 +75,6 @@ try:
 except Exception as e:
     print(f"Сообщение об ошибке: {e}")
     print("Завершаем работу скрипта.")
+"""
+print('hello, world')
+print(hash_consensus.getMembers())
